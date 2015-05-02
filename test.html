@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style>
+.glowing-border {
+    border: 2px solid #dadada;
+    border-radius: 7px;
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+#mybox {
+	width:200px;
+	height:200px;
+	outline:none;
+	box-shadow:0 0 10px #9ecaed;
+	margin-top:100px;
+}
+
+body {
+margin:0px;
+}
+#big {
+	position:relative;
+	width:400px;
+	height:300px;
+	top:10px;
+	background-color:#00C;
+}
+#small {
+	position: absolute;
+	width:100px;
+	height:100px;
+	top:40px;
+	left:20px;
+	background-color:#F00;	
+}
+
+</style>
+</head>
+
+<body>
+<div id="big" >
+	<div id="small"></div>
+</div>
+</body>
+</html>
